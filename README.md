@@ -1,51 +1,49 @@
-# ThinkBridge
+# ThinkBridge UI Suggestion for Best New Electric Supply Application
 
-Framework used to build the test script : TestNG
+Remove empty space at the bottom of the page.
 
-Reporting framework used in the test script: ExtentReport V3.1.2
+Need space between radio button/ list the radio button instead of having it in the same line.
 
-Build management tool: Maven
+Remove grid/lines in the form.
 
-Framework design:
+Need space between each fields(right side)
 
-I have created this use case in a framework for that I have created all the predefined functions which are needed by the user to complete the sign up form. All those predefined functions are converted into a jar so that the person who is going to use this framework can use the below listed functions to automate the form.
+All text field size should be unique to make the UI in a pleasant manner.
 
-Functions created for this use case:
+Add placeholder text for Drop down instead of empty value.
 
-OpenURL - Example( flow.OpenURL("https://google.com"))
+Instead of displaying all sections at single page ,Can we have it as next window in the same page.
 
-ClickButton - Example( flow.ClickButton("Get Started"))
+Background color needs to be white for better view.
 
-ClickCheckBox - Example ( flow.ClickCheckBox())
+Too many colors in different section is not needed it is impacting the User Interface Aesthetics.
 
-ValidateDropDown - Example ( flow.ValidateDropDown("English,Dutch"))
+For upload fields, validation is getting displayed at the bottom instead of displaying beside the field.
 
-VerifyTextPresentinUI - Example ( flow.VerifyTextPresentinUI("Success message"))
+View photo/view signature seems to be broken in the page. If the user didn't upload any image.
 
-TypeTextBasedonPlaceholderName - Example ( flow.TypeTextBasedonPlaceholderName("Full Name","magesh"))
+Favicon needs to be displayed in browser tab.
+
+It would be better if we display the alert in marquee text.
+
+Special characters should be removed in the page title.
+
+Instead of displaying help in static text, it would be better if we have as help icon. by clicking on help icon,text should be displayed.
+
+Too many fields in the single lie.(Example-Total load/calculate load)
+
+For Address, it would be better if we gave 'use my current location' using MAP API.
+
+Field Names needs to be bold.
+
+All the fields needs to be either left aligned/center aligned.
+
+Instead of phone number, we can give work number
+
+For purpose of supply field, instead of drop down we can give picker field since it has too many options.
+
+Progress bar needs to be updated with good animations /loading screen
+
+For upload documents, we can mention the list of extensions and maximum size as instruction.
 
 
-Some of the utiities methods:
-
-CreateDirectory
-
-StartDriver
-
-Explicitwait
-
-QuitDriver
-
-Preqrequistes to run the test script:
-
-Java above 1.8 version
-
-TestNG above 6 version
-
-Chrome Browser
-
-Steps to run the test script:
-1. Import the test package into an IDE (Eclipse is preferred)
-2. Right click on the TestNG.xml and run it as TestNG Suite
-3. Refresh the test package and open the report folder there should be a report with the recent timestamp
-
-Note: Since I have used WebDriverManager and TESTNG, User don't need to worry about driver initiation and quiting the driver.
